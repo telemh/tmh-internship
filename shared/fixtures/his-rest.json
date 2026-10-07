@@ -1,0 +1,17 @@
+{
+  "version": "lab-his-1",
+  "appointments": [
+    {
+      "id": "a001",
+      "subjectId": "s001",
+      "startsAt": "2026-10-12T09:00:00Z",
+      "status": "confirmed"
+    },
+    {
+      "id": "a002",
+      "subjectId": "s002",
+      "startsAt": "2026-10-13T10:00:00Z",
+      "status": "cancelled"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "r001",
+    "subjectId": "s001",
+    "kind": "heart_rate",
+    "value": 63,
+    "unit": "bpm",
+    "recordedAt": "2026-09-01T08:00:00Z",
+    "source": "manual",
+    "externalId": "manual-001"
+  },
+  {
+    "id": "r002",
+    "subjectId": "s001",
+    "kind": "glucose",
+    "value": 4.7,
+    "unit": "mmol/L",
+    "recordedAt": "2026-09-01T08:00:00Z",
+    "source": "manual",
+    "externalId": "manual-002"
+  },
+  {
+    "id": "r003",
+    "subjectId": "s001",
+    "kind": "heart_rate",
+    "value": 66,
+    "unit": "bpm",
+    "recordedAt": "2026-09-02T08:00:00Z",
+    "source": "manual",
+    "externalId": "manual-003"
+  },
+  {
+    "id": "r004",
+    "subjectId": "s001",
+    "kind": "glucose",
+    "value": 4.9,
+    "unit": "mmol/L",
+    "recordedAt": "2026-09-02T08:00:00Z",
+    "source": "manual",
+    "externalId": "manual-004"
+  },
+  {
+    "id": "r005",
+    "subjectId": "s001",
+    "kind": "heart_rate",
+    "value": 69,
+    "unit": "bpm",
+    "recordedAt": "2026-09-03T08:00:00Z",
+    "source": "manual",
+    "externalId": "manual-005"
+  },
+  {
+    "id": "r006",
+    "subjectId": "s001",
+    "kind": "glucose",
+    "value": 5.1,
+    "unit": "mmol/L",
+    "recordedAt": "2026-09-03T08:00:00Z",
+    "source": "manual",
+    "externalId": "manual-006"
+  },
+  {
+    "id": "r007",
+    "subjectId": "s001",
+    "kind": "heart_rate",
+    "value": 72,
+    "unit": "bpm",
+    "recordedAt": "2026-09-04T08:00:00Z",
+    "source": "manual",
+    "externalId": "manual-007"
+  },
+  {
+    "id": "r008",
+    "subjectId": "s001",
+    "kind": "glucose",
+    "value": 5.3,
+    "unit": "mmol/L",
+    "recordedAt": "2026-09-04T08:00:00Z",
+    "source": "manual",
+    "externalId": "manual-008"
+  },
+  {
+    "id": "r009",
+    "subjectId": "s002",
+    "kind": "heart_rate",
+    "value": 64,
+    "unit": "bpm",
+    "recordedAt": "2026-09-01T08:00:00Z",
+    "source": "manual",
+    "externalId": "manual-009"
+  },
+  {
+    "id": "r010",
+    "subjectId": "s002",
+    "kind": "glucose",
+    "value": 4.8,
+    "unit": "mmol/L",
+    "recordedAt": "2026-09-01T08:00:00Z",
+    "source": "manual",
+    "externalId": "manual-010"
+  },
+  {
+    "id": "r011",
+    "subjectId": "s002",
+    "kind": "heart_rate",
+    "value": 67,
+    "unit": "bpm",
+    "recordedAt": "2026-09-02T08:00:00Z",
+    "source": "manual",
+    "externalId": "manual-011"
+  },
+  {
+    "id": "r012",
+    "subjectId": "s002",
+    "kind": "glucose",
+    "value": 5.0,
+    "unit": "mmol/L",
+    "recordedAt": "2026-09-02T08:00:00Z",
+    "source": "manual",
+    "externalId": "manual-012"
+  }
+]

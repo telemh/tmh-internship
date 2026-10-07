@@ -1,0 +1,147 @@
+[
+  {
+    "queryId": "q001",
+    "split": "dev",
+    "query": "Как выбрать только измерения глюкозы?",
+    "answerable": true,
+    "relevantDocIds": [
+      "kb-01"
+    ]
+  },
+  {
+    "queryId": "q002",
+    "split": "dev",
+    "query": "Почему externalId остаётся прежним при повторе?",
+    "answerable": true,
+    "relevantDocIds": [
+      "kb-02"
+    ]
+  },
+  {
+    "queryId": "q003",
+    "split": "dev",
+    "query": "Кто может читать s001?",
+    "answerable": true,
+    "relevantDocIds": [
+      "kb-03"
+    ]
+  },
+  {
+    "queryId": "q004",
+    "split": "dev",
+    "query": "Что делать после отзыва разрешения?",
+    "answerable": true,
+    "relevantDocIds": [
+      "kb-04"
+    ]
+  },
+  {
+    "queryId": "q005",
+    "split": "dev",
+    "query": "Что означает readiness 503?",
+    "answerable": true,
+    "relevantDocIds": [
+      "kb-05"
+    ]
+  },
+  {
+    "queryId": "q006",
+    "split": "dev",
+    "query": "Какие лекарства назначить при диабете?",
+    "answerable": false,
+    "relevantDocIds": []
+  },
+  {
+    "queryId": "q007",
+    "split": "test",
+    "query": "Как упорядочены записи журнала?",
+    "answerable": true,
+    "relevantDocIds": [
+      "kb-01"
+    ]
+  },
+  {
+    "queryId": "q008",
+    "split": "test",
+    "query": "Что будет при потерянном ответе после сохранения?",
+    "answerable": true,
+    "relevantDocIds": [
+      "kb-02"
+    ]
+  },
+  {
+    "queryId": "q009",
+    "split": "test",
+    "query": "Разрешена ли запись для doctor-a?",
+    "answerable": true,
+    "relevantDocIds": [
+      "kb-03"
+    ]
+  },
+  {
+    "queryId": "q010",
+    "split": "test",
+    "query": "Нужно ли настоящее устройство?",
+    "answerable": true,
+    "relevantDocIds": [
+      "kb-04"
+    ]
+  },
+  {
+    "queryId": "q011",
+    "split": "test",
+    "query": "Что не должно попадать в логи?",
+    "answerable": true,
+    "relevantDocIds": [
+      "kb-05"
+    ]
+  },
+  {
+    "queryId": "q012",
+    "split": "test",
+    "query": "Что указать в README студента?",
+    "answerable": true,
+    "relevantDocIds": [
+      "kb-06"
+    ]
+  },
+  {
+    "queryId": "q013",
+    "split": "test",
+    "query": "Что содержит manifest поискового индекса?",
+    "answerable": true,
+    "relevantDocIds": [
+      "kb-07"
+    ]
+  },
+  {
+    "queryId": "q014",
+    "split": "test",
+    "query": "Можно читать файл просто по object key?",
+    "answerable": true,
+    "relevantDocIds": [
+      "kb-08"
+    ]
+  },
+  {
+    "queryId": "q015",
+    "split": "test",
+    "query": "Какова рабочая сеть компании?",
+    "answerable": false,
+    "relevantDocIds": []
+  },
+  {
+    "queryId": "q016",
+    "split": "test",
+    "query": "Как диагностировать заболевание по измерению?",
+    "answerable": false,
+    "relevantDocIds": []
+  },
+  {
+    "queryId": "q017",
+    "split": "test",
+    "query": "Какой номер телефона реального пользователя?",
+    "answerable": false,
+    "relevantDocIds": []
+  }
+]

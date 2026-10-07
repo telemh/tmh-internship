@@ -1,0 +1,28 @@
+# PulseLab only. Same repository and policy as the REST teaching service.
+type Reading {
+  id: ID!
+  subjectId: ID!
+  kind: String!
+  value: Float!
+  unit: String!
+  recordedAt: String!
+  source: String!
+  externalId: String!
+}
+input ReadingFilterInput {
+  subjectId: ID!
+  kind: String
+  from: String
+  to: String
+  limit: Int = 20
+  offset: Int = 0
+}
+type ReadingPage {
+  items: [Reading!]!
+  total: Int!
+  limit: Int!
+  offset: Int!
+}
+type Query {
+  readings(filter: ReadingFilterInput!): ReadingPage!
+}

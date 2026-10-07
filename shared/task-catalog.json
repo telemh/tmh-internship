@@ -1,0 +1,530 @@
+[
+  {
+    "id": "MO-01",
+    "track": "mobile",
+    "number": 1,
+    "title": "Модель измерения и работа с JSON",
+    "hours": [
+      6,
+      10
+    ],
+    "dependsOn": [],
+    "task": "tracks/mobile/tasks/01/task.md",
+    "quiz": "tracks/mobile/tasks/01/quiz.md"
+  },
+  {
+    "id": "MO-02",
+    "track": "mobile",
+    "number": 2,
+    "title": "Журнал и карточка измерения",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "MO-01"
+    ],
+    "task": "tracks/mobile/tasks/02/task.md",
+    "quiz": "tracks/mobile/tasks/02/quiz.md"
+  },
+  {
+    "id": "MO-03",
+    "track": "mobile",
+    "number": 3,
+    "title": "Сеть, загрузка и повтор запроса",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "MO-02"
+    ],
+    "task": "tracks/mobile/tasks/03/task.md",
+    "quiz": "tracks/mobile/tasks/03/quiz.md"
+  },
+  {
+    "id": "MO-04",
+    "track": "mobile",
+    "number": 4,
+    "title": "Добавление записи и очередь offline",
+    "hours": [
+      8,
+      10
+    ],
+    "dependsOn": [
+      "MO-03"
+    ],
+    "task": "tracks/mobile/tasks/04/task.md",
+    "quiz": "tracks/mobile/tasks/04/quiz.md"
+  },
+  {
+    "id": "MO-05",
+    "track": "mobile",
+    "number": 5,
+    "title": "Эмулятор устройства и разрешений",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "MO-04"
+    ],
+    "task": "tracks/mobile/tasks/05/task.md",
+    "quiz": "tracks/mobile/tasks/05/quiz.md"
+  },
+  {
+    "id": "MO-06",
+    "track": "mobile",
+    "number": 6,
+    "title": "Завершённое демо и проверка качества",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "MO-05"
+    ],
+    "task": "tracks/mobile/tasks/06/task.md",
+    "quiz": "tracks/mobile/tasks/06/quiz.md"
+  },
+  {
+    "id": "BE-01",
+    "track": "backend",
+    "number": 1,
+    "title": "HTTP API в памяти",
+    "hours": [
+      6,
+      8
+    ],
+    "dependsOn": [],
+    "task": "tracks/backend/tasks/01/task.md",
+    "quiz": "tracks/backend/tasks/01/quiz.md"
+  },
+  {
+    "id": "BE-02",
+    "track": "backend",
+    "number": 2,
+    "title": "MongoDB и конкурентные записи",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "BE-01"
+    ],
+    "task": "tracks/backend/tasks/02/task.md",
+    "quiz": "tracks/backend/tasks/02/quiz.md"
+  },
+  {
+    "id": "BE-03",
+    "track": "backend",
+    "number": 3,
+    "title": "GraphQL поверх общего слоя",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "BE-02"
+    ],
+    "task": "tracks/backend/tasks/03/task.md",
+    "quiz": "tracks/backend/tasks/03/quiz.md"
+  },
+  {
+    "id": "BE-04",
+    "track": "backend",
+    "number": 4,
+    "title": "Проверка доступа к субъекту",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "BE-03"
+    ],
+    "task": "tracks/backend/tasks/04/task.md",
+    "quiz": "tracks/backend/tasks/04/quiz.md"
+  },
+  {
+    "id": "BE-05",
+    "track": "backend",
+    "number": 5,
+    "title": "Файлы и cache через адаптеры",
+    "hours": [
+      8,
+      14
+    ],
+    "dependsOn": [
+      "BE-04"
+    ],
+    "task": "tracks/backend/tasks/05/task.md",
+    "quiz": "tracks/backend/tasks/05/quiz.md"
+  },
+  {
+    "id": "BE-06",
+    "track": "backend",
+    "number": 6,
+    "title": "Качество сервиса и итоговая защита",
+    "hours": [
+      10,
+      16
+    ],
+    "dependsOn": [
+      "BE-05"
+    ],
+    "task": "tracks/backend/tasks/06/task.md",
+    "quiz": "tracks/backend/tasks/06/quiz.md"
+  },
+  {
+    "id": "FE-01",
+    "track": "frontend",
+    "number": 1,
+    "title": "Типы и API-адаптер",
+    "hours": [
+      6,
+      8
+    ],
+    "dependsOn": [],
+    "task": "tracks/frontend/tasks/01/task.md",
+    "quiz": "tracks/frontend/tasks/01/quiz.md"
+  },
+  {
+    "id": "FE-02",
+    "track": "frontend",
+    "number": 2,
+    "title": "Кабинет и таблица измерений",
+    "hours": [
+      6,
+      10
+    ],
+    "dependsOn": [
+      "FE-01"
+    ],
+    "task": "tracks/frontend/tasks/02/task.md",
+    "quiz": "tracks/frontend/tasks/02/quiz.md"
+  },
+  {
+    "id": "FE-03",
+    "track": "frontend",
+    "number": 3,
+    "title": "URL-фильтры и устойчивость запросов",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "FE-02"
+    ],
+    "task": "tracks/frontend/tasks/03/task.md",
+    "quiz": "tracks/frontend/tasks/03/quiz.md"
+  },
+  {
+    "id": "FE-04",
+    "track": "frontend",
+    "number": 4,
+    "title": "Форма и ошибки сохранения",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "FE-03"
+    ],
+    "task": "tracks/frontend/tasks/04/task.md",
+    "quiz": "tracks/frontend/tasks/04/quiz.md"
+  },
+  {
+    "id": "FE-05",
+    "track": "frontend",
+    "number": 5,
+    "title": "Границы доступа и диагностические события",
+    "hours": [
+      6,
+      10
+    ],
+    "dependsOn": [
+      "FE-04"
+    ],
+    "task": "tracks/frontend/tasks/05/task.md",
+    "quiz": "tracks/frontend/tasks/05/quiz.md"
+  },
+  {
+    "id": "FE-06",
+    "track": "frontend",
+    "number": 6,
+    "title": "E2E и итоговое демо",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "FE-05"
+    ],
+    "task": "tracks/frontend/tasks/06/task.md",
+    "quiz": "tracks/frontend/tasks/06/quiz.md"
+  },
+  {
+    "id": "IN-01",
+    "track": "integrations",
+    "number": 1,
+    "title": "Два источника — одна модель",
+    "hours": [
+      6,
+      10
+    ],
+    "dependsOn": [],
+    "task": "tracks/integrations/tasks/01/task.md",
+    "quiz": "tracks/integrations/tasks/01/quiz.md"
+  },
+  {
+    "id": "IN-02",
+    "track": "integrations",
+    "number": 2,
+    "title": "Импорт с повторными событиями",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "IN-01"
+    ],
+    "task": "tracks/integrations/tasks/02/task.md",
+    "quiz": "tracks/integrations/tasks/02/quiz.md"
+  },
+  {
+    "id": "IN-03",
+    "track": "integrations",
+    "number": 3,
+    "title": "Учебный webhook-приёмник",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "IN-02"
+    ],
+    "task": "tracks/integrations/tasks/03/task.md",
+    "quiz": "tracks/integrations/tasks/03/quiz.md"
+  },
+  {
+    "id": "IN-04",
+    "track": "integrations",
+    "number": 4,
+    "title": "REST и SOAP вымышленной МИС",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "IN-03"
+    ],
+    "task": "tracks/integrations/tasks/04/task.md",
+    "quiz": "tracks/integrations/tasks/04/quiz.md"
+  },
+  {
+    "id": "IN-05",
+    "track": "integrations",
+    "number": 5,
+    "title": "Сбои, порядок и отзыв разрешения",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "IN-04"
+    ],
+    "task": "tracks/integrations/tasks/05/task.md",
+    "quiz": "tracks/integrations/tasks/05/quiz.md"
+  },
+  {
+    "id": "IN-06",
+    "track": "integrations",
+    "number": 6,
+    "title": "Контракт, тест-план и демо импорта",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "IN-05"
+    ],
+    "task": "tracks/integrations/tasks/06/task.md",
+    "quiz": "tracks/integrations/tasks/06/quiz.md"
+  },
+  {
+    "id": "AI-01",
+    "track": "ai-mlops",
+    "number": 1,
+    "title": "Корпус и детерминированный baseline",
+    "hours": [
+      6,
+      10
+    ],
+    "dependsOn": [],
+    "task": "tracks/ai-mlops/tasks/01/task.md",
+    "quiz": "tracks/ai-mlops/tasks/01/quiz.md"
+  },
+  {
+    "id": "AI-02",
+    "track": "ai-mlops",
+    "number": 2,
+    "title": "Embeddings и FAISS на CPU",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "AI-01"
+    ],
+    "task": "tracks/ai-mlops/tasks/02/task.md",
+    "quiz": "tracks/ai-mlops/tasks/02/quiz.md"
+  },
+  {
+    "id": "AI-03",
+    "track": "ai-mlops",
+    "number": 3,
+    "title": "Benchmark без подгонки под тест",
+    "hours": [
+      10,
+      14
+    ],
+    "dependsOn": [
+      "AI-02"
+    ],
+    "task": "tracks/ai-mlops/tasks/03/task.md",
+    "quiz": "tracks/ai-mlops/tasks/03/quiz.md"
+  },
+  {
+    "id": "AI-04",
+    "track": "ai-mlops",
+    "number": 4,
+    "title": "FastAPI и ответ с источниками",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "AI-03"
+    ],
+    "task": "tracks/ai-mlops/tasks/04/task.md",
+    "quiz": "tracks/ai-mlops/tasks/04/quiz.md"
+  },
+  {
+    "id": "AI-05",
+    "track": "ai-mlops",
+    "number": 5,
+    "title": "Версия индекса и атомарное обновление",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "AI-04"
+    ],
+    "task": "tracks/ai-mlops/tasks/05/task.md",
+    "quiz": "tracks/ai-mlops/tasks/05/quiz.md"
+  },
+  {
+    "id": "AI-06",
+    "track": "ai-mlops",
+    "number": 6,
+    "title": "RAG-границы, CI и финальная демонстрация",
+    "hours": [
+      8,
+      14
+    ],
+    "dependsOn": [
+      "AI-05"
+    ],
+    "task": "tracks/ai-mlops/tasks/06/task.md",
+    "quiz": "tracks/ai-mlops/tasks/06/quiz.md"
+  },
+  {
+    "id": "DO-01",
+    "track": "devops",
+    "number": 1,
+    "title": "Linux и минимальный health-service",
+    "hours": [
+      6,
+      8
+    ],
+    "dependsOn": [],
+    "task": "tracks/devops/tasks/01/task.md",
+    "quiz": "tracks/devops/tasks/01/quiz.md"
+  },
+  {
+    "id": "DO-02",
+    "track": "devops",
+    "number": 2,
+    "title": "Compose для MongoDB и cache",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "DO-01"
+    ],
+    "task": "tracks/devops/tasks/02/task.md",
+    "quiz": "tracks/devops/tasks/02/quiz.md"
+  },
+  {
+    "id": "DO-03",
+    "track": "devops",
+    "number": 3,
+    "title": "systemd для приложения",
+    "hours": [
+      6,
+      10
+    ],
+    "dependsOn": [
+      "DO-02"
+    ],
+    "task": "tracks/devops/tasks/03/task.md",
+    "quiz": "tracks/devops/tasks/03/quiz.md"
+  },
+  {
+    "id": "DO-04",
+    "track": "devops",
+    "number": 4,
+    "title": "Backup с доказанным restore",
+    "hours": [
+      8,
+      12
+    ],
+    "dependsOn": [
+      "DO-03"
+    ],
+    "task": "tracks/devops/tasks/04/task.md",
+    "quiz": "tracks/devops/tasks/04/quiz.md"
+  },
+  {
+    "id": "DO-05",
+    "track": "devops",
+    "number": 5,
+    "title": "Наблюдение и drill отказа",
+    "hours": [
+      6,
+      10
+    ],
+    "dependsOn": [
+      "DO-04"
+    ],
+    "task": "tracks/devops/tasks/05/task.md",
+    "quiz": "tracks/devops/tasks/05/quiz.md"
+  },
+  {
+    "id": "DO-06",
+    "track": "devops",
+    "number": 6,
+    "title": "CI, release и rollback",
+    "hours": [
+      8,
+      14
+    ],
+    "dependsOn": [
+      "DO-05"
+    ],
+    "task": "tracks/devops/tasks/06/task.md",
+    "quiz": "tracks/devops/tasks/06/quiz.md"
+  }
+]

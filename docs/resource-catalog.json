@@ -1,0 +1,402 @@
+[
+  {
+    "id": "git",
+    "title": "Pro Git, русский",
+    "url": "https://git-scm.com/book/ru/v2",
+    "study": "Git: изменения, ветки, remotes",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "http",
+    "title": "MDN HTTP",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+    "study": "HTTP: запрос, ответ, статусы",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "dart",
+    "title": "Dart language",
+    "url": "https://dart.dev/language",
+    "study": "Типы, null safety, async",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "flutter",
+    "title": "Learn Flutter",
+    "url": "https://docs.flutter.dev/learn",
+    "study": "Начальный учебный путь",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "flutter-architecture",
+    "title": "Flutter architecture",
+    "url": "https://docs.flutter.dev/app-architecture",
+    "study": "Разделение UI, state, data",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "flutter-tests",
+    "title": "Flutter testing",
+    "url": "https://docs.flutter.dev/testing/overview",
+    "study": "Unit, widget, integration",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "typescript",
+    "title": "TypeScript Handbook",
+    "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+    "study": "Типы, narrowing, generics",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "bun",
+    "title": "Bun docs",
+    "url": "https://bun.com/docs",
+    "study": "Runtime и зависимости",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "bun-test",
+    "title": "Bun test",
+    "url": "https://bun.com/docs/test",
+    "study": "Автоматические проверки",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "elysia",
+    "title": "Elysia Quick Start",
+    "url": "https://elysiajs.com/quick-start",
+    "study": "Маршруты и приложение",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "elysia-validation",
+    "title": "Elysia Validation",
+    "url": "https://elysiajs.com/essential/validation",
+    "study": "Проверка HTTP-входа",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "graphql",
+    "title": "GraphQL Learn",
+    "url": "https://graphql.org/learn/",
+    "study": "Schema, resolver, query",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "yoga",
+    "title": "GraphQL Yoga",
+    "url": "https://the-guild.dev/graphql/yoga-server/docs",
+    "study": "GraphQL-сервер",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "yoga-bun",
+    "title": "Yoga + Bun",
+    "url": "https://the-guild.dev/graphql/yoga-server/docs/integrations/integration-with-bun",
+    "study": "Интеграция runtime",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "mongo",
+    "title": "MongoDB Manual 8.0",
+    "url": "https://www.mongodb.com/docs/v8.0/",
+    "study": "Документы, индексы, aggregation",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено, ветка 8.0"
+  },
+  {
+    "id": "mongo-driver",
+    "title": "MongoDB JS driver",
+    "url": "https://www.mongodb.com/docs/drivers/node/current/",
+    "study": "Driver, CRUD, indexes",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "valkey",
+    "title": "Valkey topics",
+    "url": "https://valkey.io/topics/",
+    "study": "TTL, cache, persistence",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "s3",
+    "title": "Amazon S3 user guide",
+    "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+    "study": "Object storage, key, bucket",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "minio",
+    "title": "MinIO community repository",
+    "url": "https://github.com/minio/minio",
+    "study": "Контекст S3; архивный upstream",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено; архивный"
+  },
+  {
+    "id": "vue",
+    "title": "Vue 3 Guide",
+    "url": "https://vuejs.org/guide/introduction.html",
+    "study": "Компоненты и реактивность",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "vue-router",
+    "title": "Vue Router",
+    "url": "https://router.vuejs.org/",
+    "study": "Маршруты, учебный инструмент",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "pinia",
+    "title": "Pinia",
+    "url": "https://pinia.vuejs.org/",
+    "study": "Store, учебный инструмент",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "vitest",
+    "title": "Vitest",
+    "url": "https://vitest.dev/guide/",
+    "study": "Frontend-тесты",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "playwright",
+    "title": "Playwright",
+    "url": "https://playwright.dev/docs/intro",
+    "study": "Сценарии в браузере",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "health-connect",
+    "title": "Health Connect",
+    "url": "https://developer.android.com/health-and-fitness/health-connect",
+    "study": "Android health-платформа",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "healthkit",
+    "title": "HealthKit",
+    "url": "https://developer.apple.com/documentation/healthkit",
+    "study": "iOS health-платформа",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено; JS-документация"
+  },
+  {
+    "id": "fcm",
+    "title": "Firebase Cloud Messaging",
+    "url": "https://firebase.google.com/docs/cloud-messaging",
+    "study": "Уведомления; только обзор",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "fhir",
+    "title": "FHIR R4",
+    "url": "https://www.hl7.org/fhir/R4/",
+    "study": "Дополнительное знакомство с медобменом",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "webrtc",
+    "title": "WebRTC MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API",
+    "study": "Обзор связи в реальном времени",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "python",
+    "title": "Python tutorial",
+    "url": "https://docs.python.org/3/tutorial/",
+    "study": "Язык; выбирай совместимую версию",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "fastapi",
+    "title": "FastAPI tutorial",
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "study": "API, модели, ошибки",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "faiss",
+    "title": "FAISS official repository",
+    "url": "https://github.com/facebookresearch/faiss",
+    "study": "Индексы и similarity search",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "e5",
+    "title": "multilingual-e5-large model card",
+    "url": "https://huggingface.co/intfloat/multilingual-e5-large",
+    "study": "Модель актуального RAG-контекста",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "e5-small",
+    "title": "multilingual-e5-small model card",
+    "url": "https://huggingface.co/intfloat/multilingual-e5-small",
+    "study": "CPU-модель учебного маршрута; README доступен отдельно",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено через raw README"
+  },
+  {
+    "id": "sbert",
+    "title": "Sentence Transformers usage",
+    "url": "https://sbert.net/docs/sentence_transformer/usage/usage.html",
+    "study": "Вычисление embeddings",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "pytest",
+    "title": "pytest",
+    "url": "https://docs.pytest.org/en/stable/",
+    "study": "Python-тесты",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "docker",
+    "title": "Docker Compose",
+    "url": "https://docs.docker.com/compose/",
+    "study": "Локальный стенд",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "systemd",
+    "title": "systemd.service manual",
+    "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html",
+    "study": "Units; локально man systemd.service",
+    "checkedAt": "2026-10-07",
+    "status": "Автоматическое чтение ограничено 403"
+  },
+  {
+    "id": "systemd-source",
+    "title": "systemd official manual source",
+    "url": "https://github.com/systemd/systemd/blob/main/man/systemd.service.xml",
+    "study": "Альтернативный первичный источник",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "sentry",
+    "title": "Sentry Bun guide",
+    "url": "https://docs.sentry.io/platforms/javascript/guides/bun/",
+    "study": "Ошибки и observability",
+    "checkedAt": "2026-10-07",
+    "status": "Markdown не разобран инструментом"
+  },
+  {
+    "id": "actions",
+    "title": "GitHub Actions",
+    "url": "https://docs.github.com/en/actions",
+    "study": "Учебный CI",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "schema",
+    "title": "JSON Schema",
+    "url": "https://json-schema.org/learn/getting-started-step-by-step",
+    "study": "Контракты JSON",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "openapi",
+    "title": "OpenAPI 3.1 specification",
+    "url": "https://spec.openapis.org/oas/v3.1.0.html",
+    "study": "Контракт REST учебного проекта",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "roles",
+    "title": "GitHub repository roles",
+    "url": "https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization",
+    "study": "Права lead и студентов",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "branches",
+    "title": "GitHub protected branches",
+    "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches",
+    "study": "Review и ограничения main",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "soap",
+    "title": "SOAP 1.1, W3C Note",
+    "url": "https://www.w3.org/TR/2000/NOTE-SOAP-20000508/",
+    "study": "Envelope/Body/Fault; версия fixtures, не новый стандарт",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "xml-names",
+    "title": "XML Namespaces, W3C",
+    "url": "https://www.w3.org/TR/xml-names/",
+    "study": "Namespace URI и prefix",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "bluetooth",
+    "title": "Bluetooth technology overview",
+    "url": "https://www.bluetooth.com/learn-about-bluetooth/tech-overview/",
+    "study": "BLE-термины и обзор; без hardware",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "e5-small-raw",
+    "title": "multilingual-e5-small README",
+    "url": "https://huggingface.co/intfloat/multilingual-e5-small/raw/main/README.md",
+    "study": "Альтернативный доступ к model card",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  },
+  {
+    "id": "checkout",
+    "title": "GitHub Checkout changelog",
+    "url": "https://github.com/actions/checkout/blob/main/CHANGELOG.md",
+    "study": "Версия учебного CI action",
+    "checkedAt": "2026-10-07",
+    "status": "Проверено"
+  }
+]

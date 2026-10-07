@@ -1,0 +1,19 @@
+{
+  "version": "lab-a-1",
+  "items": [
+    {
+      "measurement_id": "va-001",
+      "person_key": "ext-A",
+      "pulse": 72,
+      "unit": "bpm",
+      "time_ms": 1788249600000
+    },
+    {
+      "measurement_id": "va-002",
+      "person_key": "ext-B",
+      "pulse": 68,
+      "unit": "bpm",
+      "time_ms": 1788336000000
+    }
+  ]
+}

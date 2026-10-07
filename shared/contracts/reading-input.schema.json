@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PulseLab ReadingInput",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "subjectId": {
+      "type": "string",
+      "enum": [
+        "s001",
+        "s002"
+      ]
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "heart_rate",
+        "glucose"
+      ]
+    },
+    "value": {
+      "type": "number",
+      "minimum": 0
+    },
+    "unit": {
+      "type": "string",
+      "enum": [
+        "bpm",
+        "mmol/L"
+      ]
+    },
+    "recordedAt": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "manual",
+        "ble_mock",
+        "vendor_mock",
+        "hc_mock"
+      ]
+    },
+    "externalId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64
+    }
+  },
+  "required": [
+    "subjectId",
+    "kind",
+    "value",
+    "unit",
+    "recordedAt",
+    "source",
+    "externalId"
+  ],
+  "oneOf": [
+    {
+      "properties": {
+        "kind": {
+          "const": "heart_rate"
+        },
+        "unit": {
+          "const": "bpm"
+        }
+      }
+    },
+    {
+      "properties": {
+        "kind": {
+          "const": "glucose"
+        },
+        "unit": {
+          "const": "mmol/L"
+        }
+      }
+    }
+  ]
+}

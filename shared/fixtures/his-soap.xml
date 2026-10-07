@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lab="urn:pulselab:his:1">
+  <soap:Body>
+    <lab:GetAppointmentsResponse>
+      <lab:Appointment><lab:Id>a001</lab:Id><lab:SubjectId>s001</lab:SubjectId><lab:StartsAt>2026-10-12T09:00:00Z</lab:StartsAt><lab:Status>confirmed</lab:Status></lab:Appointment>
+      <lab:Appointment><lab:Id>a002</lab:Id><lab:SubjectId>s002</lab:SubjectId><lab:StartsAt>2026-10-13T10:00:00Z</lab:StartsAt><lab:Status>cancelled</lab:Status></lab:Appointment>
+    </lab:GetAppointmentsResponse>
+  </soap:Body>
+</soap:Envelope>

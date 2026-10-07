@@ -1,0 +1,3 @@
+# Copy to CODEOWNERS and replace the placeholders before enabling owner reviews.
+# The real team must have write access to the educational repository.
+* @GITHUB_ORG/LEAD_TEAM

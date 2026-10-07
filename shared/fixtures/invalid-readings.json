@@ -1,0 +1,119 @@
+[
+  {
+    "caseId": "wrong-unit",
+    "payload": {
+      "subjectId": "s001",
+      "kind": "heart_rate",
+      "value": 63,
+      "unit": "mmol/L",
+      "recordedAt": "2026-09-01T08:00:00Z",
+      "source": "manual",
+      "externalId": "manual-001"
+    },
+    "expectedStatus": 422
+  },
+  {
+    "caseId": "unknown-kind",
+    "payload": {
+      "subjectId": "s001",
+      "kind": "temperature",
+      "value": 63,
+      "unit": "bpm",
+      "recordedAt": "2026-09-01T08:00:00Z",
+      "source": "manual",
+      "externalId": "manual-001"
+    },
+    "expectedStatus": 422
+  },
+  {
+    "caseId": "string-value",
+    "payload": {
+      "subjectId": "s001",
+      "kind": "heart_rate",
+      "value": "72",
+      "unit": "bpm",
+      "recordedAt": "2026-09-01T08:00:00Z",
+      "source": "manual",
+      "externalId": "manual-001"
+    },
+    "expectedStatus": 422
+  },
+  {
+    "caseId": "negative-value",
+    "payload": {
+      "subjectId": "s001",
+      "kind": "heart_rate",
+      "value": -1,
+      "unit": "bpm",
+      "recordedAt": "2026-09-01T08:00:00Z",
+      "source": "manual",
+      "externalId": "manual-001"
+    },
+    "expectedStatus": 422
+  },
+  {
+    "caseId": "bad-time",
+    "payload": {
+      "subjectId": "s001",
+      "kind": "heart_rate",
+      "value": 63,
+      "unit": "bpm",
+      "recordedAt": "yesterday",
+      "source": "manual",
+      "externalId": "manual-001"
+    },
+    "expectedStatus": 422
+  },
+  {
+    "caseId": "missing-zone",
+    "payload": {
+      "subjectId": "s001",
+      "kind": "heart_rate",
+      "value": 63,
+      "unit": "bpm",
+      "recordedAt": "2026-09-01T08:00:00",
+      "source": "manual",
+      "externalId": "manual-001"
+    },
+    "expectedStatus": 422
+  },
+  {
+    "caseId": "unknown-subject",
+    "payload": {
+      "subjectId": "unknown",
+      "kind": "heart_rate",
+      "value": 63,
+      "unit": "bpm",
+      "recordedAt": "2026-09-01T08:00:00Z",
+      "source": "manual",
+      "externalId": "manual-001"
+    },
+    "expectedStatus": 422
+  },
+  {
+    "caseId": "unexpected-field",
+    "payload": {
+      "subjectId": "s001",
+      "kind": "heart_rate",
+      "value": 63,
+      "unit": "bpm",
+      "recordedAt": "2026-09-01T08:00:00Z",
+      "source": "manual",
+      "externalId": "manual-001",
+      "contact": "synthetic-field"
+    },
+    "expectedStatus": 422
+  },
+  {
+    "caseId": "missing-external-id",
+    "payload": {
+      "subjectId": "s001",
+      "kind": "heart_rate",
+      "value": 63,
+      "unit": "bpm",
+      "recordedAt": "2026-09-01T08:00:00Z",
+      "source": "manual"
+    },
+    "expectedStatus": 422
+  }
+]

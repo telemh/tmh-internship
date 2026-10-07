@@ -1,0 +1,11 @@
+{
+  "version": "lab-webhook-1",
+  "eventId": "evt-001",
+  "data": {
+    "measurement_id": "wh-001",
+    "person_key": "ext-A",
+    "pulse": 75,
+    "unit": "bpm",
+    "time_ms": 1788249600000
+  }
+}

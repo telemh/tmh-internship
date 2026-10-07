@@ -1,0 +1,17 @@
+name: Curriculum quality
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  curriculum-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout educational materials
+        uses: actions/checkout@v7.0.0
+        with:
+          persist-credentials: false
+      - name: Check structure, links and synthetic fixtures
+        run: python3 scripts/check_repo.py
